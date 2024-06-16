@@ -115,4 +115,7 @@ all.config
 *.kdev4
 # fetched Android config fragments
 android/configs/android-*.cfg
+android/magiskboot/tmp
 linux-upstream.sh
+*.img
+arch/arm64/configs/docker*
