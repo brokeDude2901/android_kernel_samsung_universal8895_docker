@@ -14,7 +14,6 @@ LinuxDeployPro             |  docker info
 - hello-world, ubuntu, portainer, postgresql, npm, immich-app...
 
 ## What currently not working or not tested
-- Docker on native Termux doesn't work, use LinuxDeploy or chroot Termux instead
 - `docker stats` give zero stats
 - No cpuset, no blkio features
 
@@ -24,6 +23,7 @@ LinuxDeployPro             |  docker info
 - Root the rom with Magisk APK from https://github.com/topjohnwu/Magisk/releases/tag/v27.0
 - Enable ADB Debugging and keep your phone connected via USB
 - Clone this repo and run `build_kernel.sh` and wait for the compiled boot.img to flash automatically via ADB
+## Using chroot (LinuxDeploy)
 - Install LinuxDeployPro APK from https://github.com/lateautumn233/Linuxdeploy-Pro, install your favorite chroot distro (ie: Ubuntu 22.04)
 - Install latest Docker from https://get.docker.com: `curl -sSL https://get.docker.com/ | sh`
 - Make a bash script to start Docker daemon (replace `192.168.1.1` with your actual gateway)
