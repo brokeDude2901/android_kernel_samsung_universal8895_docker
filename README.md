@@ -1,4 +1,5 @@
-# CAUTION: My Note 8 SM-N950N is now dead (Recovery Mode stop working, Download Mode work but not even Stock Odin flash succeed), possible cause are faulty NAND/SSD or NAND controllers, not sure if caused by this kernel, YOU HAVE BEEN WARNED !
+# WARNING: 
+My Note 8 SM-N950N is now dead RIP (Recovery Mode stop working, Download Mode work but not even Stock Odin flash succeed), possible cause are faulty NAND/SSD or NAND controllers, not sure if caused by this kernel, YOU HAVE BEEN WARNED !
 
 # Docker for Exynos 8895
 ![image](https://github.com/brokeDude2901/android_kernel_samsung_universal8895_docker/assets/46110534/a4d9fce1-3650-4a70-b185-6030f1c3460e)
@@ -25,6 +26,9 @@ LinuxDeployPro             |  docker info
 - Root the rom with Magisk APK from https://github.com/topjohnwu/Magisk/releases/tag/v27.0
 - Enable ADB Debugging and keep your phone connected via USB
 - Clone this repo and run `build_kernel.sh` and wait for the compiled boot.img to flash automatically via ADB
+
+## Using LXC : https://github.com/George-Seven/Termux-LXC-Guide
+
 ## Using chroot (LinuxDeploy)
 - Install LinuxDeployPro APK from https://github.com/lateautumn233/Linuxdeploy-Pro, install your favorite chroot distro (ie: Ubuntu 22.04)
 - Install latest Docker from https://get.docker.com: `curl -sSL https://get.docker.com/ | sh`
