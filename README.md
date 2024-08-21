@@ -1,3 +1,5 @@
+# CAUTION: My Note 8 SM-N950N is now dead (Recovery Mode stop working, Download Mode work but not even Stock Odin flash succeed), possible cause are faulty NAND/SSD or NAND controllers, not sure if caused by this kernel, YOU HAVE BEEN WARNED !
+
 # Docker for Exynos 8895
 ![image](https://github.com/brokeDude2901/android_kernel_samsung_universal8895_docker/assets/46110534/a4d9fce1-3650-4a70-b185-6030f1c3460e)
 ![Untitled](https://github.com/brokeDude2901/android_kernel_samsung_universal8895_docker/assets/46110534/81c87c69-fb31-41a0-a3b4-930db1eb4d8f)
